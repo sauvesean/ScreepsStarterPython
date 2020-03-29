@@ -1,3 +1,5 @@
+"""Transcript"""
+
 from typing import Any, Union, TypeVar
 
 T = TypeVar('T')

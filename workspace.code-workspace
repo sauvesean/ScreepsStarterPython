@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.linting.pylintArgs": [
+			"--additional-builtins=__pragma__,_",
+			"--disable=W0614,W0401"
+		]
+	},
+}

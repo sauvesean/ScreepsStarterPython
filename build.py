@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import errno
 import json
+import logging
 import subprocess
 import sys
 import urllib.parse
@@ -17,6 +18,7 @@ transcrypt_arguments = ['-n', '-p', '.none']
 transcrypt_dirty_args = transcrypt_arguments + []
 transcrypt_clean_args = transcrypt_arguments + ['-b']
 
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
 def possible_transcrypt_binary_paths(config):
     """

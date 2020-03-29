@@ -138,4 +138,3 @@ class FileExpander:
                 target_files.append(file)
 
         return target_files
-

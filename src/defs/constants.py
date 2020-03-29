@@ -1,3 +1,5 @@
+"""Constants"""
+
 # Error constants
 OK = 0
 ERR_NOT_OWNER = -1
@@ -424,8 +426,8 @@ CONTROLLER_DOWNGRADE = {
     8: 150000,
 }
 CONTROLLER_CLAIM_DOWNGRADE = 0.2
-# Noting especially here: CONTROLLER_RESERVE seemingly is the RESERVE_POWER constant, meaning it is how much reservation
-# a creep can do per CLAIM part per tick.
+# Noting especially here: CONTROLLER_RESERVE seemingly is the RESERVE_POWER constant,
+#  meaning it is how much reservation a creep can do per CLAIM part per tick.
 CONTROLLER_RESERVE = 1
 CONTROLLER_RESERVE_MAX = 5000
 CONTROLLER_MAX_UPGRADE_PER_TICK = 15
